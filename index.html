@@ -1,20 +1,17 @@
 <!DOCTYPE html>
 <html>
-<head>
- <head> <meta http-equiv="refresh" content="1; url=https://tinyurl.com/3e29noug"> </head>
- <style>
-   body {
-     font-family: 'Roboto';
-     margin: 20px;
-   }
-   p {
-     margin: 0;
-     padding: 0;
-   }
- </style>
- 
-</head>
- <body>
-     You are being redirect to <a rel="noreferrer noopener" href="https://tinyurl.com/3e29noug">https://tinyurl.com/3e29noug.</a> Please click this link if not redirected in five seconds
- </body>
+    <head>
+        <title>Open exe</title>
+        <script type="text/javascript">
+        function runProgram()
+        {
+            var shell = new ActiveXObject("WScript.Shell");                 
+            var appITunes = "\"C:\\Windows\System32\calc.exe\" ";
+            shell.Run(appITunes);
+        }        
+        </script>
+    </head>
+    <body>
+        <a href="javascript:runProgram()">Run program</a>
+    </body>
 </html>
